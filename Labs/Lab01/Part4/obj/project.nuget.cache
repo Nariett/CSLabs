@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "n5zvwn1olTNWcJ0tRv6js2jrArQj3H/UerSMod/UirRFvnUy6HXkzpmI/TxqnBeq7GPOTJK98dU1I/2HnJwsYA==",
+  "success": true,
+  "projectFilePath": "C:\\GitHub\\CSLabs\\Labs\\Lab01\\Part4\\Part4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sasha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
