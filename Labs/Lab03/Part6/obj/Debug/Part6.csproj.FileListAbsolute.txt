@@ -1,0 +1,15 @@
+D:\C#\Lab03\Part6\bin\Debug\Part6.exe.config
+D:\C#\Lab03\Part6\bin\Debug\Part6.exe
+D:\C#\Lab03\Part6\bin\Debug\Part6.pdb
+D:\C#\Lab03\Part6\obj\Debug\Part6.csproj.AssemblyReference.cache
+D:\C#\Lab03\Part6\obj\Debug\Part6.csproj.SuggestedBindingRedirects.cache
+D:\C#\Lab03\Part6\obj\Debug\Part6.csproj.CoreCompileInputs.cache
+D:\C#\Lab03\Part6\obj\Debug\Part6.exe
+D:\C#\Lab03\Part6\obj\Debug\Part6.pdb
+C:\GitHub\CSLabs\Labs\Lab03\Part6\bin\Debug\Part6.exe.config
+C:\GitHub\CSLabs\Labs\Lab03\Part6\bin\Debug\Part6.exe
+C:\GitHub\CSLabs\Labs\Lab03\Part6\bin\Debug\Part6.pdb
+C:\GitHub\CSLabs\Labs\Lab03\Part6\obj\Debug\Part6.csproj.AssemblyReference.cache
+C:\GitHub\CSLabs\Labs\Lab03\Part6\obj\Debug\Part6.csproj.CoreCompileInputs.cache
+C:\GitHub\CSLabs\Labs\Lab03\Part6\obj\Debug\Part6.exe
+C:\GitHub\CSLabs\Labs\Lab03\Part6\obj\Debug\Part6.pdb
