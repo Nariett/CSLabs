@@ -1,0 +1,46 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENC:Array SOAP-ENC:arrayType="a1:Coll[5]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Part2/Part2%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<item href="#ref-3"/>
+<item href="#ref-4"/>
+<item href="#ref-5"/>
+<item href="#ref-6"/>
+<item href="#ref-7"/>
+</SOAP-ENC:Array>
+<a1:Coll id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Part2/Part2%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_name id="ref-8">Ford</_name>
+<_year>1964</_year>
+<_mass>5356</_mass>
+<_price>120000</_price>
+<_nameMan id="ref-9">John</_nameMan>
+</a1:Coll>
+<a1:Coll id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Part2/Part2%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_name id="ref-10">Old</_name>
+<_year>1350</_year>
+<_mass>1000</_mass>
+<_price>110800</_price>
+<_nameMan id="ref-11">Rosa</_nameMan>
+</a1:Coll>
+<a1:Coll id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Part2/Part2%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_name id="ref-12">ring</_name>
+<_year>2000</_year>
+<_mass>0.05</_mass>
+<_price>140700</_price>
+<_nameMan id="ref-13">Lisa</_nameMan>
+</a1:Coll>
+<a1:Coll id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Part2/Part2%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_name id="ref-14">Book</_name>
+<_year>1888</_year>
+<_mass>1000</_mass>
+<_price>99911</_price>
+<_nameMan id="ref-15">Nick</_nameMan>
+</a1:Coll>
+<a1:Coll id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Part2/Part2%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_name id="ref-16">PC</_name>
+<_year>1999</_year>
+<_mass>5000</_mass>
+<_price>10099</_price>
+<_nameMan id="ref-17">Sasha</_nameMan>
+</a1:Coll>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

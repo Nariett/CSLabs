@@ -1,0 +1,12 @@
+D:\C#\Lab16\Сircle\bin\Debug\net6.0\Сircle.deps.json
+D:\C#\Lab16\Сircle\bin\Debug\net6.0\Сircle.dll
+D:\C#\Lab16\Сircle\bin\Debug\net6.0\Сircle.pdb
+D:\C#\Lab16\Сircle\obj\Debug\net6.0\Сircle.csproj.AssemblyReference.cache
+D:\C#\Lab16\Сircle\obj\Debug\net6.0\Сircle.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Lab16\Сircle\obj\Debug\net6.0\Сircle.AssemblyInfoInputs.cache
+D:\C#\Lab16\Сircle\obj\Debug\net6.0\Сircle.AssemblyInfo.cs
+D:\C#\Lab16\Сircle\obj\Debug\net6.0\Сircle.csproj.CoreCompileInputs.cache
+D:\C#\Lab16\Сircle\obj\Debug\net6.0\Сircle.dll
+D:\C#\Lab16\Сircle\obj\Debug\net6.0\refint\Сircle.dll
+D:\C#\Lab16\Сircle\obj\Debug\net6.0\Сircle.pdb
+D:\C#\Lab16\Сircle\obj\Debug\net6.0\ref\Сircle.dll

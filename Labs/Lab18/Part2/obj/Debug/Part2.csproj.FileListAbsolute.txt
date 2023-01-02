@@ -1,0 +1,16 @@
+C:\Users\Sasha\source\repos\Lab18\Part2\bin\Debug\Part2.exe.config
+C:\Users\Sasha\source\repos\Lab18\Part2\bin\Debug\Part2.exe
+C:\Users\Sasha\source\repos\Lab18\Part2\bin\Debug\Part2.pdb
+C:\Users\Sasha\source\repos\Lab18\Part2\obj\Debug\Part2.csproj.AssemblyReference.cache
+C:\Users\Sasha\source\repos\Lab18\Part2\obj\Debug\Part2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sasha\source\repos\Lab18\Part2\obj\Debug\Part2.csproj.CoreCompileInputs.cache
+C:\Users\Sasha\source\repos\Lab18\Part2\obj\Debug\Part2.exe
+C:\Users\Sasha\source\repos\Lab18\Part2\obj\Debug\Part2.pdb
+D:\C#\Lab18\Part2\bin\Debug\Part2.exe.config
+D:\C#\Lab18\Part2\bin\Debug\Part2.exe
+D:\C#\Lab18\Part2\bin\Debug\Part2.pdb
+D:\C#\Lab18\Part2\obj\Debug\Part2.csproj.AssemblyReference.cache
+D:\C#\Lab18\Part2\obj\Debug\Part2.csproj.SuggestedBindingRedirects.cache
+D:\C#\Lab18\Part2\obj\Debug\Part2.csproj.CoreCompileInputs.cache
+D:\C#\Lab18\Part2\obj\Debug\Part2.exe
+D:\C#\Lab18\Part2\obj\Debug\Part2.pdb

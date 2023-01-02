@@ -1,0 +1,6 @@
+D:\C#\Lab16\Circlee\bin\Debug\Circlee.dll
+D:\C#\Lab16\Circlee\bin\Debug\Circlee.pdb
+D:\C#\Lab16\Circlee\obj\Debug\Circlee.csproj.AssemblyReference.cache
+D:\C#\Lab16\Circlee\obj\Debug\Circlee.csproj.CoreCompileInputs.cache
+D:\C#\Lab16\Circlee\obj\Debug\Circlee.dll
+D:\C#\Lab16\Circlee\obj\Debug\Circlee.pdb

@@ -1,0 +1,11 @@
+D:\C#\Lab16\Lab16\bin\Debug\Lab16.exe.config
+D:\C#\Lab16\Lab16\bin\Debug\Lab16.exe
+D:\C#\Lab16\Lab16\bin\Debug\Lab16.pdb
+D:\C#\Lab16\Lab16\bin\Debug\Circlee.dll
+D:\C#\Lab16\Lab16\bin\Debug\Circlee.pdb
+D:\C#\Lab16\Lab16\obj\Debug\Lab16.csproj.AssemblyReference.cache
+D:\C#\Lab16\Lab16\obj\Debug\Lab16.csproj.SuggestedBindingRedirects.cache
+D:\C#\Lab16\Lab16\obj\Debug\Lab16.csproj.CoreCompileInputs.cache
+D:\C#\Lab16\Lab16\obj\Debug\Lab16.csproj.CopyComplete
+D:\C#\Lab16\Lab16\obj\Debug\Lab16.exe
+D:\C#\Lab16\Lab16\obj\Debug\Lab16.pdb

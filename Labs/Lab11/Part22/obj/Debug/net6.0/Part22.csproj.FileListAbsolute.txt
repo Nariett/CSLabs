@@ -1,0 +1,15 @@
+D:\C#\Lab11\Part22\bin\Debug\net6.0\Part22.exe
+D:\C#\Lab11\Part22\bin\Debug\net6.0\Part22.deps.json
+D:\C#\Lab11\Part22\bin\Debug\net6.0\Part22.runtimeconfig.json
+D:\C#\Lab11\Part22\bin\Debug\net6.0\Part22.dll
+D:\C#\Lab11\Part22\bin\Debug\net6.0\Part22.pdb
+D:\C#\Lab11\Part22\obj\Debug\net6.0\Part22.csproj.AssemblyReference.cache
+D:\C#\Lab11\Part22\obj\Debug\net6.0\Part22.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Lab11\Part22\obj\Debug\net6.0\Part22.AssemblyInfoInputs.cache
+D:\C#\Lab11\Part22\obj\Debug\net6.0\Part22.AssemblyInfo.cs
+D:\C#\Lab11\Part22\obj\Debug\net6.0\Part22.csproj.CoreCompileInputs.cache
+D:\C#\Lab11\Part22\obj\Debug\net6.0\Part22.dll
+D:\C#\Lab11\Part22\obj\Debug\net6.0\refint\Part22.dll
+D:\C#\Lab11\Part22\obj\Debug\net6.0\Part22.pdb
+D:\C#\Lab11\Part22\obj\Debug\net6.0\Part22.genruntimeconfig.cache
+D:\C#\Lab11\Part22\obj\Debug\net6.0\ref\Part22.dll
