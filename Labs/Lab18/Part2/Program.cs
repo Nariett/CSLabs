@@ -63,7 +63,6 @@ namespace Part2
 
                 Console.WriteLine("Объект сериализован soap");
             }
-
             // десериализация
             using (FileStream fs = new FileStream("Date.soap", FileMode.OpenOrCreate))
             {

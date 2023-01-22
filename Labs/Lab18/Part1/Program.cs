@@ -18,17 +18,15 @@ namespace Part1
             Console.WriteLine($"Дней до конца месяца:{da.lastDay()}");
             Console.WriteLine($"День:{da[0]}\nМесяц: {da[1]}\nМесяц: {da[2]}");
             da[0] = 10;
-            da[1] = 12;/////////////
+            da[1] = 12;
             da[2] = 2004;
-            
-
             // XML
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(Date));
             using (FileStream fs = new FileStream("Date.xml", FileMode.OpenOrCreate))
             {
                 xmlSerializer.Serialize(fs, da);
 
-                Console.WriteLine("Обьект срелизован xml");
+                Console.WriteLine("Обьект серелизован xml");
             }
             using (FileStream fs = new FileStream("Date.xml", FileMode.OpenOrCreate))
             {

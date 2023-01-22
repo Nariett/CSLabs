@@ -1,0 +1,5 @@
+Surname: Пупкин
+Faculty: Бухгалтерия
+Course: Б-999
+Group: 2
+Mark: 2,3,4,5,6
