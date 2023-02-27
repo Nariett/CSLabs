@@ -1,0 +1,8 @@
+D:\C#\Lab22\Part01\bin\Debug\Part01.exe.config
+D:\C#\Lab22\Part01\bin\Debug\Part01.exe
+D:\C#\Lab22\Part01\bin\Debug\Part01.pdb
+D:\C#\Lab22\Part01\obj\Debug\Part01.csproj.AssemblyReference.cache
+D:\C#\Lab22\Part01\obj\Debug\Part01.csproj.SuggestedBindingRedirects.cache
+D:\C#\Lab22\Part01\obj\Debug\Part01.csproj.CoreCompileInputs.cache
+D:\C#\Lab22\Part01\obj\Debug\Part01.exe
+D:\C#\Lab22\Part01\obj\Debug\Part01.pdb

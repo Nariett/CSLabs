@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<phones>
+  <icon name="Photoshop">
+    <user>Sasha</user>
+    <date>28/12/2019</date>
+    <path>C:\Users\sasha\Photoshop.jpg</path>
+  </icon>
+  <icon name="Google Store">
+    <user>Pasha</user>
+    <date>12/05/2022</date>
+    <path>C:\Users\sasha\GoogleStore.jpg</path>
+  </icon>
+</phones>
