@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "n5zvwn1olTNWcJ0tRv6js2jrArQj3H/UerSMod/UirRFvnUy6HXkzpmI/TxqnBeq7GPOTJK98dU1I/2HnJwsYA==",
+  "dgSpecHash": "Dcvry+BzIrwdWtZcXtdEINKoBXKyjl/3O2DipAfm2afj/xr8Lvif5KVWOFDxUh2FXWMdkWHVvHmBMHcvocbYuA==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\CSLabs\\Labs\\Lab01\\Part4\\Part4.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Sasha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+    "C:\\Users\\samsi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512",
+    "C:\\Users\\samsi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\samsi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\samsi\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }
