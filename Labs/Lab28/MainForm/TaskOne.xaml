@@ -1,0 +1,27 @@
+﻿<Window x:Class="MainForm.TaskOne"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainForm"
+        mc:Ignorable="d"
+        Title="TaskOne" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="45,39,0,0" VerticalAlignment="Top" Height="{Binding ElementName=sliderOne, Path=Value}" Width="{Binding ElementName=sliderOne, Path=Value}"/>
+        <TextBox HorizontalAlignment="Left" Margin="130,39,0,0" TextWrapping="Wrap" Text="Text" VerticalAlignment="Top" Width="{Binding ElementName=sliderOne, Path=Value}" Height="{Binding ElementName=sliderOne, Path=Value}" Background="#FFF96D6D"/>
+        <Slider x:Name="sliderOne" HorizontalAlignment="Left" Margin="440,50,0,0" VerticalAlignment="Top" Width="350" RenderTransformOrigin="0.5,0.5" Maximum="100">
+            <Slider.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Slider.RenderTransform>
+        </Slider>
+        <Label Content="Size" HorizontalAlignment="Center" Margin="0,46,0,0" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Left" Height="{Binding ElementName=sliderOne, Path=Value}" Margin="45,129,0,0" Stroke="Black" VerticalAlignment="Top" Width="{Binding ElementName=sliderOne, Path=Value}"/>
+        <Ellipse HorizontalAlignment="Left" Height="{Binding ElementName=sliderOne, Path=Value}" Margin="130,129,0,0" Stroke="Black" VerticalAlignment="Top" Width="{Binding ElementName=sliderOne, Path=Value}"/>
+
+    </Grid>
+</Window>

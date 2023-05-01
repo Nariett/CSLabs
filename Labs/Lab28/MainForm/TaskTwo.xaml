@@ -1,0 +1,70 @@
+﻿<Window x:Class="MainForm.TaskTwo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainForm"
+        mc:Ignorable="d"
+        Title="TaskTwo" Height="450" Width="955">
+    <Canvas>
+        <StackPanel x:Name="PanelOne" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="10" Canvas.Top="218">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Копировать"/>
+                <Button Content="Вырезать"/>
+                <Button Content="Вставить"/>
+            </StackPanel>
+            <TextBox TextWrapping="Wrap" Text="RenderTransform.Angle&#xD;&#xA;RenderTransform.AngleX&#xD;&#xA;RenderTransform.AngleY&#xD;&#xA;RenderTransform.CenterX&#xD;&#xA;RenderTransform.CenterY&#xD;&#xA;RenderTransform.Center&#xD;&#xA;RenderTransform.Center&#xD;&#xA;RenderTransform.Center&#xD;&#xA;&#xD;&#xA;" Width="173" Height="95" VerticalScrollBarVisibility="Visible"/>
+            <StackPanel.RenderTransform>
+                <SkewTransform AngleX="-0" AngleY="10" CenterX="0" CenterY="0" />
+            </StackPanel.RenderTransform>
+        </StackPanel>
+        <StackPanel x:Name="PanelTwo" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="200" Canvas.Top="258">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Копировать"/>
+                <Button Content="Вырезать"/>
+                <Button Content="Вставить"/>
+            </StackPanel>
+            <TextBox TextWrapping="Wrap" Text="RenderTransform.Angle&#xD;&#xA;RenderTransform.AngleX&#xD;&#xA;RenderTransform.AngleY&#xD;&#xA;RenderTransform.CenterX&#xD;&#xA;RenderTransform.CenterY&#xD;&#xA;RenderTransform.Center&#xD;&#xA;RenderTransform.Center&#xD;&#xA;RenderTransform.Center&#xD;&#xA;&#xD;&#xA;" Width="173" Height="95" VerticalScrollBarVisibility="Visible"/>
+            <StackPanel.RenderTransform>
+                <SkewTransform AngleX="-0" AngleY="10" CenterX="0" CenterY="0" />
+            </StackPanel.RenderTransform>
+        </StackPanel>
+        <StackPanel x:Name="PanelThree" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="389" Canvas.Top="294">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Копировать"/>
+                <Button Content="Вырезать"/>
+                <Button Content="Вставить"/>
+            </StackPanel>
+            <TextBox TextWrapping="Wrap" Text="RenderTransform.Angle&#xD;&#xA;RenderTransform.AngleX&#xD;&#xA;RenderTransform.AngleY&#xD;&#xA;RenderTransform.CenterX&#xD;&#xA;RenderTransform.CenterY&#xD;&#xA;RenderTransform.Center&#xD;&#xA;RenderTransform.Center&#xD;&#xA;RenderTransform.Center&#xD;&#xA;&#xD;&#xA;" Width="173" Height="95" VerticalScrollBarVisibility="Visible"/>
+            <StackPanel.RenderTransform>
+                <RotateTransform Angle="0" CenterX="0" CenterY="0" />
+            </StackPanel.RenderTransform>
+        </StackPanel>
+
+
+        <StackPanel x:Name="PanelFour" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="580" Canvas.Top="290">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Копировать"/>
+                <Button Content="Вырезать"/>
+                <Button Content="Вставить"/>
+            </StackPanel>
+            <TextBox TextWrapping="Wrap" Text="RenderTransform.Angle&#xD;&#xA;RenderTransform.AngleX&#xD;&#xA;RenderTransform.AngleY&#xD;&#xA;RenderTransform.CenterX&#xD;&#xA;RenderTransform.CenterY&#xD;&#xA;RenderTransform.Center&#xD;&#xA;RenderTransform.Center&#xD;&#xA;RenderTransform.Center&#xD;&#xA;&#xD;&#xA;" Width="173" Height="95" VerticalScrollBarVisibility="Visible"/>
+            <StackPanel.RenderTransform>
+                <SkewTransform AngleX="-0" AngleY="-10" CenterX="0" CenterY="0" />
+            </StackPanel.RenderTransform>
+        </StackPanel>
+
+        <StackPanel x:Name="PanelFive" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="770" Canvas.Top="249">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Копировать"/>
+                <Button Content="Вырезать"/>
+                <Button Content="Вставить"/>
+            </StackPanel>
+            <TextBox TextWrapping="Wrap" Text="RenderTransform.Angle&#xD;&#xA;RenderTransform.AngleX&#xD;&#xA;RenderTransform.AngleY&#xD;&#xA;RenderTransform.CenterX&#xD;&#xA;RenderTransform.CenterY&#xD;&#xA;RenderTransform.Center&#xD;&#xA;RenderTransform.Center&#xD;&#xA;RenderTransform.Center&#xD;&#xA;&#xD;&#xA;" Width="173" Height="95" VerticalScrollBarVisibility="Visible"/>
+            <StackPanel.RenderTransform>
+                <SkewTransform AngleX="-0" AngleY="-10" CenterX="0" CenterY="0" />
+            </StackPanel.RenderTransform>
+        </StackPanel>
+    </Canvas>
+    
+</Window>
