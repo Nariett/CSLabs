@@ -1,0 +1,156 @@
+﻿<Window x:Class="Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Height="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="390" Margin="55,0,0,0">
+            <Button x:Name="One" Content="1" Click="Canvas1_Click" Width="30"/>
+            <Button x:Name="Two" Content="2" Click="Canvas2_Click" Width="30"/>
+            <Button x:Name="Three" Content="3" Click="Canvas3_Click" Width="30"/>
+            <Button x:Name="Four" Content="4" Click="Canvas4_Click" Width="30"/>
+            <Button x:Name="Five" Content="5" Click="Canvas5_Click" Width="30"/>
+            <Button x:Name="Six" Content="6" Click="Canvas6_Click" Width="30"/>
+            <Button x:Name="Seven" Content="7" Click="Canvas7_Click" Width="30"/>
+            <Button x:Name="Eight" Content="8" Click="Canvas8_Click" Width="30"/>
+            <Button x:Name="Nine" Content="9" Click="Canvas9_Click" Width="30"/>
+            <Button x:Name="Ten" Content="10" Click="Canvas10_Click" Width="30"/>
+            <Button x:Name="Eleven" Content="11" Click="Canvas11_Click" Width="30"/>
+            <Button x:Name="Twelve" Content="12" Click="Canvas12_Click" Width="30"/>
+            <Button x:Name="Thirteen" Content="13" Click="Canvas13_Click" Width="30"/>
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <Canvas x:Name="start" Background="LightGreen" Margin="0,0,0,60" >
+                <Button Content="Начать игру" Click="Start_Click" Canvas.Left="185" Canvas.Top="264" HorizontalAlignment="Center" VerticalAlignment="Top" Height="35" Width="130"></Button>
+                <Label Content="Роллтон или Доширак? По-настоящему важный тест с интригой!" Canvas.Left="22" Canvas.Top="64" FontSize="15"/>
+                <TextBox Canvas.Left="100" TextWrapping="Wrap" Text="Внимание! Важнейшая новость: «Доширак» обгоняет «Роллтон» по темпам выручки на рынке РФ. Вот где есть реальная борьба и интрига. Сможете их не перепутать в нашем тесте?
+Да начнется кулинарная битва!" Canvas.Top="120" Width="300" HorizontalAlignment="Left" VerticalAlignment="Top" TextAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="15"/>
+            </Canvas>
+
+            <Canvas x:Name="canvas1" Background="LightGreen" Margin="0,0,0,40" Visibility="Collapsed">
+                <TextBox x:Name="TaskOne" Canvas.Left="100" TextWrapping="Wrap" Text="Пшеничная мука в/с, пальмовое масло,
+                    модифицированный крахмал, соль, лук
+                    сушеный, сушеная ламинария (порошок),
+                    клейковина, эмульгатор-загуститель,
+                    краситель «бета-каротин», комплексная
+                    пищевая добавка «Премикс»" 
+                Canvas.Top="151" Width="300" Background="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="15"/>
+                <Label Content="Перед вами состав лапши. Какой?" Canvas.Left="127" Canvas.Top="99" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15"/>
+                <CheckBox x:Name="Q1D" Content="Доширак" Canvas.Left="329" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <CheckBox x:Name="Q1R" Content="Роллтон" Canvas.Left="100" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Button x:Name="ButtonNext" Content="Следующий вопрос" Canvas.Left="193" Canvas.Top="374" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonNext_Click"/>
+            </Canvas>
+
+            <Canvas x:Name="canvas2" Background="LightGreen" Margin="0,0,0,40" Visibility="Collapsed">
+                <Label Content="Какое слово в переводе означается 'Еда в коробке'?" Canvas.Left="64" Canvas.Top="99" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15"/>
+                <CheckBox x:Name="Q2D" Content="Доширак" Canvas.Left="329" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <CheckBox x:Name="Q2R" Content="Роллтон" Canvas.Left="100" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Button x:Name="ButtonNext2" Content="Следующий вопрос" Canvas.Left="193" Canvas.Top="374" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonNext2_Click"/>
+                <Image Height="161" Canvas.Left="146" Canvas.Top="132" Width="208" Source="/1.png"/>
+            </Canvas>
+
+            <Canvas x:Name="canvas3" Background="LightGreen" Margin="0,0,0,40" Visibility="Collapsed">
+                <Label Content="А кто первый появился в России?" Canvas.Left="133" Canvas.Top="94" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15"/>
+                <CheckBox x:Name="Q3D" Content="Доширак" Canvas.Left="329" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <CheckBox x:Name="Q3R" Content="Роллтон" Canvas.Left="100" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Button x:Name="ButtonNext3" Content="Следующий вопрос" Canvas.Left="193" Canvas.Top="374" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonNext3_Click"/>
+                <Image Height="161" Canvas.Left="146" Canvas.Top="132" Width="208" Source="/2.png"/>
+            </Canvas>
+
+            <Canvas x:Name="canvas4" Background="LightGreen" Margin="0,0,0,40" Visibility="Collapsed">
+                <Label Content="Добро пожаловать на завод, где делают..." Canvas.Left="101" Canvas.Top="104" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="15"/>
+                <CheckBox x:Name="Q4D" Content="Доширак" Canvas.Left="329" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <CheckBox x:Name="Q4R" Content="Роллтон" Canvas.Left="100" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Button x:Name="ButtonNext4" Content="Следующий вопрос" Canvas.Left="193" Canvas.Top="374" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonNext4_Click"/>
+                <Image Height="161" Canvas.Left="146" Canvas.Top="132" Width="208" Source="/3.png" />
+            </Canvas>
+
+            <Canvas x:Name="canvas5" Background="LightGreen" Margin="0,0,0,40" Visibility="Collapsed">
+                <Label Content="Чья буква из названия" Canvas.Left="167" Canvas.Top="104" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15"/>
+                <CheckBox x:Name="Q5D" Content="Доширак" Canvas.Left="329" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <CheckBox x:Name="Q5R" Content="Роллтон" Canvas.Left="100" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Button x:Name="ButtonNext5" Content="Следующий вопрос" Canvas.Left="193" Canvas.Top="374" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonNext5_Click"/>
+                <Image Height="161" Canvas.Left="146" Canvas.Top="132" Width="208" Source="/4.png"/>
+            </Canvas>
+
+            <Canvas x:Name="canvas6" Background="LightGreen" Margin="0,0,0,40" Visibility="Collapsed">
+                <Label Content="Что рекламируют?" Canvas.Left="180" Canvas.Top="104" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15"/>
+                <CheckBox x:Name="Q6D" Content="Доширак" Canvas.Left="329" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <CheckBox x:Name="Q6R" Content="Роллтон" Canvas.Left="100" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Button x:Name="ButtonNext6" Content="Следующий вопрос" Canvas.Left="193" Canvas.Top="374" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonNext6_Click"/>
+                <Image Height="161" Canvas.Left="146" Canvas.Top="132" Width="208" Source="/5.png" />
+            </Canvas>
+
+            <Canvas x:Name="canvas7" Background="LightGreen" Margin="0,0,0,40" Visibility="Collapsed">
+                <Label Content="Так-так, а у кого на упаковке вот эта вилка?" Canvas.Left="100" Canvas.Top="94" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="15"/>
+                <CheckBox x:Name="Q7D" Content="Доширак" Canvas.Left="329" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <CheckBox x:Name="Q7R" Content="Роллтон" Canvas.Left="100" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Button x:Name="ButtonNext7" Content="Следующий вопрос" Canvas.Left="193" Canvas.Top="374" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonNext7_Click"/>
+                <Image Height="161" Canvas.Left="146" Canvas.Top="132" Width="208" Source="/6.png"  />
+            </Canvas>
+
+            <Canvas x:Name="canvas8" Background="LightGreen" Margin="0,0,0,40" Visibility="Collapsed">
+                <Label Content="Убираем упаковку. Узнали?" Canvas.Left="150" Canvas.Top="104" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15"/>
+                <CheckBox x:Name="Q8D" Content="Доширак" Canvas.Left="329" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <CheckBox x:Name="Q8R" Content="Роллтон" Canvas.Left="100" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Button x:Name="ButtonNext8" Content="Следующий вопрос" Canvas.Left="193" Canvas.Top="374" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonNext8_Click"/>
+                <Image Height="161" Canvas.Left="146" Canvas.Top="132" Width="208" Source="/7.png"/>
+            </Canvas>
+
+            <Canvas x:Name="canvas9" Background="LightGreen" Margin="0,0,0,40" Visibility="Collapsed" >
+                <CheckBox x:Name="Q9D" Content="Доширак" Canvas.Left="329" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <CheckBox x:Name="Q9R" Content="Роллтон" Canvas.Left="100" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Button x:Name="ButtonNext9" Content="Следующий вопрос" Canvas.Left="193" Canvas.Top="374" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonNext9_Click"/>
+                <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Text="Нет сил терпеть. Вскрываем. Обе куриные, не обижейтесь. Какая лапша слева?" VerticalAlignment="Top" Width="250" Background="{x:Null}" Canvas.Left="125" Canvas.Top="84" TextAlignment="Center" FontSize="15" />
+                <Image Height="161" Canvas.Left="146" Canvas.Top="149" Width="208" Source="/8.png"  />
+            </Canvas>
+
+            <Canvas x:Name="canvas10" Background="LightGreen" Margin="0,0,0,40"  Visibility="Collapsed">
+                <Label Content="Засыпаем ОВОЩИ! Что сверху?" Canvas.Left="136" Canvas.Top="104" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15"/>
+                <CheckBox x:Name="Q10D" Content="Доширак" Canvas.Left="329" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <CheckBox x:Name="Q10R" Content="Роллтон" Canvas.Left="100" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Button x:Name="ButtonNext10" Content="Следующий вопрос" Canvas.Left="193" Canvas.Top="374" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonNext10_Click"/>
+                <Image Height="161" Canvas.Left="146" Canvas.Top="132" Width="208" Source="/9.png" />
+            </Canvas>
+
+            <Canvas x:Name="canvas11" Background="LightGreen" Margin="0,0,0,40" Visibility="Collapsed">
+                <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Text="Глядите, соевое мясо! Кусочек справа из коробки..." VerticalAlignment="Top" Width="250" Background="{x:Null}" Canvas.Left="125" Canvas.Top="84" TextAlignment="Center" FontSize="15"/>
+                <CheckBox x:Name="Q11D" Content="Доширак" Canvas.Left="329" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <CheckBox x:Name="Q11R" Content="Роллтон" Canvas.Left="100" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Button x:Name="ButtonNext11" Content="Следующий вопрос" Canvas.Left="193" Canvas.Top="374" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonNext11_Click"/>
+                <Image Height="161" Canvas.Left="146" Canvas.Top="132" Width="208" Source="/10.png" />
+            </Canvas>
+
+            <Canvas x:Name="canvas12" Background="LightGreen" Margin="0,0,0,40" Visibility="Collapsed" >
+                <Label Content="По цвету приправы ясно, что это" Canvas.Left="131" Canvas.Top="104" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15"/>
+                <CheckBox x:Name="Q12D" Content="Доширак" Canvas.Left="329" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <CheckBox x:Name="Q12R" Content="Роллтон" Canvas.Left="100" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Button x:Name="ButtonNext12" Content="Следующий вопрос" Canvas.Left="193" Canvas.Top="374" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonNext12_Click"/>
+                <Image Height="161" Canvas.Left="146" Canvas.Top="132" Width="208" Source="/11.png" />
+            </Canvas>
+
+            <Canvas x:Name="canvas13" Background="LightGreen" Margin="0,0,0,40" Visibility="Collapsed">
+                <Label Content="Кто заварился?" Canvas.Left="193" Canvas.Top="89" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15" Width="117"/>
+                <CheckBox x:Name="Q13D" Content="Доширак" Canvas.Left="329" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <CheckBox x:Name="Q13R" Content="Роллтон" Canvas.Left="100" Canvas.Top="324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Button x:Name="ButtonNext13" Content="Следующий вопрос" Canvas.Left="193" Canvas.Top="374" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ButtonNext13_Click"/>
+                <Image Height="161" Canvas.Left="146" Canvas.Top="132" Width="208" Source="/12.png"  />
+            </Canvas>
+
+            <Canvas x:Name="finish" Background="LightGreen" Margin="0,0,0,40"  Visibility="Collapsed">
+                <Label Content="Результат" Canvas.Left="212" Canvas.Top="94" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="15" Width="76"/>
+                <Label x:Name="Result" Canvas.Left="212" Canvas.Top="139" FontSize="15" Width="76" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Canvas>
+            <Label Content="Счет:" Margin="17,404,0,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="38"/>
+            <TextBox x:Name="Score" HorizontalAlignment="Left" Margin="60,408,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" BorderBrush="{x:Null}"/>
+
+        </Grid>
+    </Grid>
+</Window>
