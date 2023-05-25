@@ -1,0 +1,16 @@
+﻿<Window x:Class="Article.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Article"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox TextWrapping="Wrap" Text="WONDER" Width="148" FontSize="30" TextAlignment="Center" BorderBrush="{x:Null}" Foreground="#FF202472" FontWeight="Bold" Height="42" SelectionBrush="{x:Null}" IsReadOnly="True" Margin="0,0,0,348" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+        <TextBox TextWrapping="Wrap" Text="ZINE" Width="148" FontSize="15" TextAlignment="Center" BorderBrush="{x:Null}" Foreground="#FF202472" FontWeight="Bold" SelectionBrush="{x:Null}" IsReadOnly="True" Margin="0,0,0,325" HorizontalAlignment="Center" Height="23" VerticalAlignment="Bottom"/>
+
+        <Button Content="Читать статью" HorizontalAlignment="Center" VerticalAlignment="Center" Width="110" Click="Button_Click" Height="56"/>
+
+    </Grid>
+</Window>
