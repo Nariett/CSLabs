@@ -18,7 +18,7 @@
                 <MenuItem Header="Выход из приложения" Click="Leave_Click"></MenuItem>
             </MenuItem>
         </Menu>
-        <ScrollViewer Margin="0,34,0,0">
+        <ScrollViewer Margin="0,57,0,0">
             <StackPanel>
                 <TextBox TextWrapping="Wrap" Text="WONDER" Width="148" FontSize="30" TextAlignment="Center" BorderBrush="{x:Null}" Foreground="#FF202472" FontWeight="Bold" Height="42" SelectionBrush="{x:Null}" IsReadOnly="True"/>
                 <Grid Height="303" Width="565" >
@@ -52,5 +52,6 @@
                 <Image Source="/Add.png" />
             </StackPanel>
         </ScrollViewer>
+        <TextBox x:Name="SearchText" HorizontalAlignment="Left" Margin="10,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>

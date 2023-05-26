@@ -61,7 +61,48 @@ namespace Article
 
         private void MenuItemSearch_Click(object sender, RoutedEventArgs e)
         {
+            string searchData = SearchText.Text;
+            string articleText = TextBlock.Text;
+            if (string.IsNullOrEmpty(searchData) || string.IsNullOrEmpty(TextBlock.Text))
+            {
+                MessageBox.Show("Введите данные для поиска и загрузите статью");
+                return;
+            }
 
+            int index = articleText.IndexOf(searchData, StringComparison.CurrentCultureIgnoreCase);
+            if (index >= 0)
+            {
+                MessageBox.Show("Найдено");
+                TextBlock.Inlines.Clear();
+
+                while (index >= 0)
+                {
+                    // добавить Run с текстом до найденного слова
+                    TextBlock.Inlines.Add(new Run(articleText.Substring(0, index)));
+
+                    // добавить Run с найденным словом
+                    Run highlightRun = new Run(articleText.Substring(index, searchData.Length))
+                    {
+                        Background = Brushes.Yellow,
+                        Foreground = Brushes.Black
+                    };
+                    TextBlock.Inlines.Add(highlightRun);
+
+                    // обновить оставшийся текст и продолжить поиск
+                    articleText = articleText.Substring(index + searchData.Length);
+                    index = articleText.IndexOf(searchData, StringComparison.CurrentCultureIgnoreCase);
+                }
+
+                // добавить оставшийся текст после последнего найденного слова
+                if (!string.IsNullOrEmpty(articleText))
+                {
+                    TextBlock.Inlines.Add(new Run(articleText));
+                }
+            }
+            else
+            {
+                MessageBox.Show("Не найдено");
+            }
         }
 
         private void LeaveInMainPage_Click(object sender, RoutedEventArgs e)
